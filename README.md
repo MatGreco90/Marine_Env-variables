@@ -5,6 +5,6 @@ Contents:
 
 CODE:
 
-mixed_layer.R: determines mixed layer depth given a water depth and corresponding sigma-theta values 
+mixed_layer.R: determines mixed layer depth from a CTD station given water depth and corresponding sigma-theta profile 
 
 Seaicetiff.R: downlads sea ice daily concentrations geotiff images from NOAA database 
