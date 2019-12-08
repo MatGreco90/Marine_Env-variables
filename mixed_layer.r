@@ -11,3 +11,9 @@ MLD_calc<- function (df, col1,col2) {
   my.mixedlayerdepht
   
 }
+
+# Example: Load sample file and compute
+wd<-getwd()
+sample_profile <- read.csv(paste0(wd,"/sample_profile.csv"))
+
+MLD_calc(sample_profile,depth,sigtheta)
